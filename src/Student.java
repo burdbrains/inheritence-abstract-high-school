@@ -43,7 +43,7 @@ public class Student
     {
         return this.scienceCourse;
     }
-    
+
     public String getSocialCourse()
     {
         return this.socialCourse;
