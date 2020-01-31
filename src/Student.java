@@ -51,4 +51,45 @@ public class Student
 
 
     // Mutators
+    public void setName(String name)
+    {
+        this.name = name;
+    }
+
+    public void setBirthdate(String bday)
+    {
+        this.birthdate = bday;
+    }
+
+    public void setMathCourse(String mCourse)
+    {
+        this.mathCourse = mCourse;
+    }
+
+    public void setEnglishCourse(String eCourse)
+    {
+        this.englishCourse = eCourse;
+    }
+
+    public void setSocialCourse(String socCourse)
+    {
+        this.socialCourse = socCourse;
+    }
+
+    public void setScienceCourse(String sciCourse)
+    {
+        this.scienceCourse = sciCourse;
+    }
+
+
+    // toString Method
+    public void studentToString()
+    {
+        System.out.println(this.name + "'s Student Info");
+        System.out.println("Birthday: " + this.birthdate);
+        System.out.println("Math Course: " + this.mathCourse);
+        System.out.println("English Course: " + this.englishCourse);
+        System.out.println("Social Course: " + this.socialCourse);
+        System.out.println("Science Course: " + this.scienceCourse);
+    }
 }

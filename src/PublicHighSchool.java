@@ -14,4 +14,8 @@ public abstract class PublicHighSchool implements HighSchool
     {
         System.out.println("Students must cover all parts of their body.");
     }
+
+    public abstract void finalExamWaivers();
+    public abstract void lunchPriveleges();
+    public abstract void parking();
 }
