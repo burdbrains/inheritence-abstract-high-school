@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        // Creating Grade Level Objects
+        // Creating Grade Level Objects.
         Grade9 grade9 = new Grade9();
         Grade10 grade10 = new Grade10();
         Grade11 grade11 = new Grade11();
